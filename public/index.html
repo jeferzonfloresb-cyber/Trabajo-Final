@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Identidad Digital - Solución de Control de Acceso</title>
+  <link rel="icon" href="assets/img/logo.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
@@ -12,7 +13,7 @@
 <body>
   <header class="header">
     <nav class="nav container">
-      <div class="logo">Identidad Digital</div>
+      <div class="logo"><img src="assets/img/logo.svg" alt="" width="28" height="28"> Identidad Digital</div>
       <button class="nav-toggle" id="navToggle" aria-label="Menú">☰</button>
       <ul class="nav-menu" id="navMenu">
         <li><a href="#inicio">Inicio</a></li>
@@ -25,12 +26,18 @@
   </header>
 
   <section id="inicio" class="hero">
-    <div class="container">
-      <h1>Control de acceso e identidad digital para tu organización</h1>
-      <p>Gestión centralizada de usuarios, roles, permisos, autenticación multifactor, auditoría inmutable y seguimiento de accesos.</p>
-      <div class="hero-cta">
-        <a href="#contacto" class="btn primary">Solicitar demo</a>
-        <a href="#solucion" class="btn secondary">Conocer más</a>
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <span class="eyebrow">Seguridad · RBAC · Auditoría</span>
+        <h1>Gestión de identidad y control de acceso</h1>
+        <p>Plataforma centralizada de usuarios, roles, permisos, autenticación multifactor, auditoría inmutable y monitoreo de accesos para tu organización.</p>
+        <div class="hero-cta">
+          <a href="#contacto" class="btn primary">Solicitar demo</a>
+          <a href="#solucion" class="btn secondary">Conocer más</a>
+        </div>
+      </div>
+      <div class="hero-media">
+        <img src="assets/img/hero.svg" alt="Panel de control de identidad digital con escudo de seguridad" width="1200" height="640">
       </div>
     </div>
   </section>
@@ -41,14 +48,17 @@
       <p class="section-subtitle">Un enfoque integral para proteger recursos y garantizar cumplimiento.</p>
       <div class="grid-3">
         <div class="card">
+          <img class="icon" src="assets/img/icon-rbac.svg" alt="" width="40" height="40">
           <h3>RBAC + Permisos individuales</h3>
           <p>Control basado en roles con excepciones granulares por usuario. Aplicación en tiempo real.</p>
         </div>
         <div class="card">
+          <img class="icon" src="assets/img/icon-auth.svg" alt="" width="40" height="40">
           <h3>Autenticación segura</h3>
           <p>Login con 2FA, bloqueo por intentos fallidos, política de contraseñas con hash lento y recuperación segura.</p>
         </div>
         <div class="card">
+          <img class="icon" src="assets/img/icon-audit.svg" alt="" width="40" height="40">
           <h3>Auditoría trazable</h3>
           <p>Registro append-only con hash encadenado para garantizar integridad e inmutabilidad.</p>
         </div>
@@ -81,14 +91,17 @@
       <h2 class="section-title">Casos de uso</h2>
       <div class="grid-3">
         <div class="card">
+          <img class="icon" src="assets/img/icon-education.svg" alt="" width="40" height="40">
           <h3>Instituciones educativas</h3>
           <p>Control de acceso a plataformas académicas, laboratorios virtuales y reportes sensibles.</p>
         </div>
         <div class="card">
+          <img class="icon" src="assets/img/icon-government.svg" alt="" width="40" height="40">
           <h3>Organismos públicos</h3>
           <p>Cumplimiento normativo con trazabilidad completa de accesos y cambios de permisos.</p>
         </div>
         <div class="card">
+          <img class="icon" src="assets/img/icon-enterprise.svg" alt="" width="40" height="40">
           <h3>Empresas y SaaS</h3>
           <p>Protección de módulos críticos con RBAC y monitoreo de sesiones activas.</p>
         </div>
