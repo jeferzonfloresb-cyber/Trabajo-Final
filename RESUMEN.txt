@@ -1,6 +1,6 @@
 ﻿TRABAJO FINAL - LANDING PAGE FUNCIONAL
 Carpeta: TRABAJO_FINAL_LANDING_PAGE
-Enlace sugerido: https://github.com/darkpro/MAESTRIA_EN_INGENIERIA_DE_SOFTWARE_Y_SISTEMAS_INFORMATICO/tree/main/MODULO_3_DESARROLLO_AL_LADO_DEL_CLIENTE_Y_SERVIDOR_WEB/TRABAJO_FINAL_LANDING_PAGE
+Enlace del repositorio: https://github.com/jeferzonfloresb-cyber/Trabajo-Final
 
 Archivos clave:
 - public/index.html (Landing)

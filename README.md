@@ -32,8 +32,13 @@ mediante AJAX/Fetch.
 ```bash
 cd public
 php -S 127.0.0.1:8000
-# Abrir http://127.0.0.1:8000
 ```
+
+Abrir http://127.0.0.1:8000
+
+## Repositorio
+
+https://github.com/jeferzonfloresb-cyber/Trabajo-Final
 
 ## Documentación
 

@@ -111,4 +111,4 @@ Capturas reales en `capturas/`:
 
 ## 9. Repositorio
 
-https://github.com/darkpro/MAESTRIA_EN_INGENIERIA_DE_SOFTWARE_Y_SISTEMAS_INFORMATICO
+https://github.com/jeferzonfloresb-cyber/Trabajo-Final

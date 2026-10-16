@@ -109,8 +109,7 @@ story.append(PageBreak())
 
 story.append(P('8. Código fuente y repositorio', H1))
 story.append(P('El código fuente completo se encuentra en el repositorio GitHub:', BODY))
-story.append(P('https://github.com/darkpro/MAESTRIA_EN_INGENIERIA_DE_SOFTWARE_Y_SISTEMAS_INFORMATICO', BODY))
-story.append(P('Ruta: MODULO_3_DESARROLLO_AL_LADO_DEL_CLIENTE_Y_SERVIDOR_WEB/TRABAJO_FINAL_LANDING_PAGE', BODY))
+story.append(P('https://github.com/jeferzonfloresb-cyber/Trabajo-Final', BODY))
 story.append(Spacer(1, 4))
 story.append(P('Archivos principales: public/index.html, public/assets/style.css, public/assets/app.js, '
                'public/api/leads.php, src/core/Database.php, src/core/Request.php, src/core/Router.php, docs/README.md.', BODY))
