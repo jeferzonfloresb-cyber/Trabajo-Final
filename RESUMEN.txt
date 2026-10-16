@@ -1,0 +1,16 @@
+﻿TRABAJO FINAL - LANDING PAGE FUNCIONAL
+Carpeta: TRABAJO_FINAL_LANDING_PAGE
+Enlace sugerido: https://github.com/darkpro/MAESTRIA_EN_INGENIERIA_DE_SOFTWARE_Y_SISTEMAS_INFORMATICO/tree/main/MODULO_3_DESARROLLO_AL_LADO_DEL_CLIENTE_Y_SERVIDOR_WEB/TRABAJO_FINAL_LANDING_PAGE
+
+Archivos clave:
+- public/index.html (Landing)
+- public/assets/app.js (JS + Fetch)
+- public/api/leads.php + src/api/leads.php (API PHP)
+- public/core/*, src/core/* (Database, Request, Router)
+- data/landing.db (creado automáticamente)
+- docs/README.md
+- capturas/ (evidencia)
+- TRABAJO_FINAL_ENTREGABLE.pdf (entregable)
+- TRABAJO_FINAL_ENTREGABLE.md
+
+Funcionalidades: responsive, menú móvil, validación cliente/servidor, comunicación cliente-servidor (AJAX/Fetch + JSON), procesamiento PHP 8.3, PDO SQLite, almacenamiento/consulta leads.

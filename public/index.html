@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Identidad Digital - Solución de Control de Acceso</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav container">
+      <div class="logo">Identidad Digital</div>
+      <button class="nav-toggle" id="navToggle" aria-label="Menú">☰</button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#solucion">Solución</a></li>
+        <li><a href="#caracteristicas">Características</a></li>
+        <li><a href="#casos-uso">Casos de uso</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="inicio" class="hero">
+    <div class="container">
+      <h1>Control de acceso e identidad digital para tu organización</h1>
+      <p>Gestión centralizada de usuarios, roles, permisos, autenticación multifactor, auditoría inmutable y seguimiento de accesos.</p>
+      <div class="hero-cta">
+        <a href="#contacto" class="btn primary">Solicitar demo</a>
+        <a href="#solucion" class="btn secondary">Conocer más</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="solucion" class="section">
+    <div class="container">
+      <h2 class="section-title">Nuestra solución</h2>
+      <p class="section-subtitle">Un enfoque integral para proteger recursos y garantizar cumplimiento.</p>
+      <div class="grid-3">
+        <div class="card">
+          <h3>RBAC + Permisos individuales</h3>
+          <p>Control basado en roles con excepciones granulares por usuario. Aplicación en tiempo real.</p>
+        </div>
+        <div class="card">
+          <h3>Autenticación segura</h3>
+          <p>Login con 2FA, bloqueo por intentos fallidos, política de contraseñas con hash lento y recuperación segura.</p>
+        </div>
+        <div class="card">
+          <h3>Auditoría trazable</h3>
+          <p>Registro append-only con hash encadenado para garantizar integridad e inmutabilidad.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="caracteristicas" class="section alt">
+    <div class="container">
+      <h2 class="section-title">Características clave</h2>
+      <div class="grid-2">
+        <ul class="list">
+          <li>Gestión de usuarios, roles y permisos</li>
+          <li>Sesiones con revocación y expiración por inactividad</li>
+          <li>2FA y secretos cifrados</li>
+          <li>Historial de contraseñas y bloqueo automático</li>
+        </ul>
+        <ul class="list">
+          <li>Vista de permisos efectivos (roles + individuales)</li>
+          <li>Auditoría con hash encadenado SHA256</li>
+          <li>Notificaciones ante eventos de seguridad</li>
+          <li>API REST segura lista para integración</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="casos-uso" class="section">
+    <div class="container">
+      <h2 class="section-title">Casos de uso</h2>
+      <div class="grid-3">
+        <div class="card">
+          <h3>Instituciones educativas</h3>
+          <p>Control de acceso a plataformas académicas, laboratorios virtuales y reportes sensibles.</p>
+        </div>
+        <div class="card">
+          <h3>Organismos públicos</h3>
+          <p>Cumplimiento normativo con trazabilidad completa de accesos y cambios de permisos.</p>
+        </div>
+        <div class="card">
+          <h3>Empresas y SaaS</h3>
+          <p>Protección de módulos críticos con RBAC y monitoreo de sesiones activas.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto" class="section alt">
+    <div class="container">
+      <h2 class="section-title">Solicita información o demo</h2>
+      <p class="section-subtitle">Completa el formulario y te contactaremos brevemente.</p>
+      <form id="leadForm" class="form" novalidate>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="nombre">Nombre *</label>
+            <input type="text" id="nombre" name="nombre" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Correo electrónico *</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono" name="telefono">
+          </div>
+          <div class="form-group">
+            <label for="interes">Interés</label>
+            <select id="interes" name="interes">
+              <option value="">Seleccionar...</option>
+              <option value="demo">Solicitar demo</option>
+              <option value="cotizacion">Cotización</option>
+              <option value="integracion">Integración</option>
+              <option value="otro">Otro</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" name="mensaje" rows="4"></textarea>
+        </div>
+        <button type="submit" class="btn primary">Enviar solicitud</button>
+        <div id="formMsg" class="form-msg" aria-live="polite"></div>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-brand">Identidad Digital - Control de Acceso</div>
+      <div class="footer-meta">Trabajo Final - Módulo 3</div>
+    </div>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
