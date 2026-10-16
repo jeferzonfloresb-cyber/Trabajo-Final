@@ -44,11 +44,3 @@ https://github.com/jeferzonfloresb-cyber/Trabajo-Final
 
 Ver [`docs/README.md`](docs/README.md).
 
-## Evidencia
-
-Capturas reales del funcionamiento en [`capturas/`](capturas/):
-`real_desktop.png`, `real_mobile.png`, `real_api.png`.
-
-## Entregable PDF
-
-[`TRABAJO_FINAL_ENTREGABLE.pdf`](TRABAJO_FINAL_ENTREGABLE.pdf)

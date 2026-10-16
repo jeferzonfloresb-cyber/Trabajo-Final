@@ -54,9 +54,7 @@ TRABAJO_FINAL_LANDING_PAGE/
 │   ├── core/               # Clases núcleo
 │   └── api/leads.php       # Código fuente del endpoint
 ├── data/                   # landing.db (creado automáticamente)
-├── docs/                   # Documentación
-├── capturas/               # Evidencia de funcionamiento
-└── generar_pdf_final.py    # Generación del PDF entregable
+└── docs/                   # Documentación
 ```
 
 ## 6. Ejecución
@@ -100,15 +98,6 @@ curl -X POST http://127.0.0.1:8000/api/leads.php \
 # -> {"success":true,"id":"1"}
 ```
 
-## 8. Evidencia de funcionamiento
-
-Capturas reales en `capturas/`:
-
-- `real_desktop.png` - Landing en escritorio.
-- `real_mobile.png` - Landing en móvil (responsive).
-- `real_api.png` - Respuesta JSON del API.
-- `01_estructura.png` - Estructura del proyecto.
-
-## 9. Repositorio
+## 8. Repositorio
 
 https://github.com/jeferzonfloresb-cyber/Trabajo-Final
